@@ -100,21 +100,22 @@ let multiplesOf2 = numbers2.map((number) => {
 console.log(incrementedNumbersBy3);
 console.log(multiplesOf2);
 
-// // 11. slice
+// // 11. splice
 // // The splice() method adds/removes items to/from an array, and returns the removed item(s).
-// // let fruits4 = ["Banana", "Orange", "Apple", "Mango"];
-// // fruits4.splice(2, 0, "Lemon", "Kiwi");
-// // console.log(fruits4); // ["Banana", "Orange", "Lemon", "Kiwi", "Apple", "Mango"]
+let fruits4 = ["Banana", "Orange", "Apple", "Mango"];
+fruits4.splice(1, 1, "Lemon", "Kiwi");
+// the first number represents position to insert elements and the second position to delete elements
+console.log(fruits4); // ["Banana", "Orange", "Lemon", "Kiwi", "Apple", "Mango"]
 
 // // 12. concat
 // // The concat() method is used to join two or more arrays.
-// // let fruits3 = ["Banana", "Orange", "Apple", "Mango"];
-// // let vegetables = ["Potato", "Tomato", "Onion", "Cabbage"];
-// // let fruitsAndVegetables2 = fruits3.concat(vegetables);
-// // console.log(fruitsAndVegetables2); // ["Banana", "Orange", "Apple", "Mango", "Potato", "Tomato", "Onion", "Cabbage"]
+// let fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+// let vegetables = ["Potato", "Tomato", "Onion", "Cabbage"];
+// let fruitsAndVegetables2 = fruits3.concat(vegetables);
+// console.log(fruitsAndVegetables2); // ["Banana", "Orange", "Apple", "Mango", "Potato", "Tomato", "Onion", "Cabbage"]
 
 //13. reverse
-// The reverse() method reverses the elements in an array.
-let fruits3 = ["Banana", "Orange", "Apple", "Mango"];
-fruits3.reverse();
-console.log(fruits3); // ["Mango", "Apple", "Orange", "Banana"]
+// // The reverse() method reverses the elements in an array.
+// let fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+// fruits3.reverse();
+// console.log(fruits3); // ["Mango", "Apple", "Orange", "Banana"]
