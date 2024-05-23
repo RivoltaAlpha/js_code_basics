@@ -105,7 +105,16 @@ console.log(multiplesOf2);
 let fruits4 = ["Banana", "Orange", "Apple", "Mango"];
 fruits4.splice(1, 1, "Lemon", "Kiwi");
 // the first number represents position to insert elements and the second position to delete elements
+// if its 1 you just add, if its 0 item is deleted
 console.log(fruits4); // ["Banana", "Orange", "Lemon", "Kiwi", "Apple", "Mango"]
+//Example2
+var fruits = ["apple", "banana", "orange", "mango"];
+// Use the splice method to remove the second and third elements and insert "kiwi" and "lemon" in their place
+var removed = fruits.splice(1, 2, "kiwi", "lemon");
+// Print the modified array and the removed elements
+console.log(fruits); // ["apple", "kiwi", "lemon", "mango"]
+console.log(removed); // ["banana", "orange"]
+
 
 // // 12. concat
 // // The concat() method is used to join two or more arrays.
